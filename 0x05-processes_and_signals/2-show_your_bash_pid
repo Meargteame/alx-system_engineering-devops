@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Bash script that displays a processes running currntly.
+$"ps" "faux" | grep "bash"
+
