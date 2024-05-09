@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for file in txtfiles/*.txt
+do 
+    tar -czvf $file.tar.gz $file
+done

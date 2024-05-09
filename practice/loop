@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#this script is looping 
+
+my_var="Best School"
+var=10
+
+while [ $var -le 100 ]
+do 
+     echo "$my_var"
+     var=$(( var +10))
+done

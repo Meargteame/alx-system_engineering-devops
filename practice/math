@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#this is a script with math functions and how to use them
+
+mynum1="100"
+mynum2="200"
+
+sum= expr $mynum1 + $mynum2"

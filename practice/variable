@@ -1,0 +1,13 @@
+#!/bin/bash
+
+name="Meareg Teame"
+age="20"
+
+echo "$name"
+echo "$age"
+
+#here i am storing the output of the ls command to files variable 
+files=$(ls)
+#here I am printing out what i have in the variable called files
+echo "$files"
+echo "$USERNAME"

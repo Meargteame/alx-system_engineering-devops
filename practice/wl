@@ -1,0 +1,15 @@
+#!/bin/bash
+#this bash script is implemetation of while loop
+
+name="Meareg"
+
+var=0
+
+#let's create first infinite loop
+
+while [ $var -le 100 ]
+do 
+    echo $var
+    echo "Hi $name, all good"
+    var=$(( $var +10))
+done

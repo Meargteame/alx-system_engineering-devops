@@ -1,0 +1,5 @@
+#!/bin/bash
+#this script is priting the text helloworld
+
+echo "Hello World"
+

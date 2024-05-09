@@ -1,0 +1,15 @@
+#!/bin/bash
+
+command=ls
+
+if [ -f $command ] >> yes.log
+then 
+    echo "$command is available let's run it ..."
+    exit 0
+else
+    echo "$command is NOT Available installing it ...">>no.log
+    
+    exit 1
+
+fi 
+$command
