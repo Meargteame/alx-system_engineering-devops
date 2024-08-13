@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Define the server address
+SERVER="54.146.65.43"
+
+# Connect to the server using the specified private key and user
+ssh -i ~/.ssh/school -o User=ubuntu "$SERVER"
